@@ -1,0 +1,6 @@
+＊tsvファイルを読み・ソートし・書き込むプログラムを作れ
+
+* create data-filter(data-converter)
+  * read .tsv file
+  * sort list data, select list data
+  * write .tsv file
