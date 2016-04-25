@@ -1,0 +1,14 @@
+﻿＊TCPSocket, Threadとか、
+＊WEBrick, Sinatora, Rack, Railsとか、
+＊Mongrel, Thin, Unicorn等を使って、
+＊リンクを辿ってお話を読んでいくような
+＊ブラウザから見て楽しむWEBアプリ・WEBサービスを作れ。
+
+＊ネットからデータをDL・解析してくるようなプログラムを作れ。
+
+* create Web-App, Web-Service
+  * access from browsers
+  * reading stories with links?
+  * use TCPSocket, Thread, WEBrick, Sinatora, Rack, Rails, or something
+
+* create downloader/analyzer program from web-pages
