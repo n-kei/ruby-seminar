@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>BBS</title>
+	</head>
+	<body>
+		<h1>BBS</h1>
+		<ul>
+			<% @comments.each do |comment| %>
+				<li data-id= "<%= comment.id %>">
+					<%= h comment.body %>
+				</li>
+			<% end %>
+		</ul>
+		<h2>Add new</h2>
+		<form method="post" action="/new">
+			<input type="text" name="body"><input type= "submit" value="post!">
+			</form>
+	</body>
+</html>
