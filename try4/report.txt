@@ -1,0 +1,11 @@
+﻿＊Webアプリを作れ。
+　＊Railsで作れ。
+　＊Rails以外で作れ。
+
+＊DBを絡めて、名簿管理のWebアプリを作れ。
+
+* create Web App
+  * using Rails
+  * using without Rails
+
+* create Web App for data sheet(of member list)
