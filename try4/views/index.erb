@@ -16,6 +16,19 @@
 		<h2>Add new</h2>
 		<form method="post" action="/new">
 			<input type="text" name="body"><input type= "submit" value="post!">
-			</form>
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+$('.deleteCmd').click(function(){
+	var el = $(this).parent();
+	if(confirm('are you sure to delete?')) {
+		$.post('/delete', {
+			id: el.data('id')
+		}, function(){
+			el.fadeOut(800);
+		});
+	}
+})
+		</script>
 	</body>
 </html>

@@ -21,6 +21,10 @@ post "/new" do
 	erb :index
 end
 
+post '/delete' do 
+	Comment.find(params[:id]).destroy
+end
+
 helpers do
 	include Rack::Utils
 	alias_method :h, :escape_html
