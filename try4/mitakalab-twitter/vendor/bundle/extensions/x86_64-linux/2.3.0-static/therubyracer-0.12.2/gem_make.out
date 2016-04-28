@@ -1,0 +1,47 @@
+current directory: /home/kei/work/sandbox/rails/mitakalab-twitter/vendor/bundle/gems/therubyracer-0.12.2/ext/v8
+/home/kei/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160428-22899-fkhbqg.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/kei/work/sandbox/rails/mitakalab-twitter/vendor/bundle/extensions/x86_64-linux/2.3.0-static/therubyracer-0.12.2/mkmf.log
+
+current directory: /home/kei/work/sandbox/rails/mitakalab-twitter/vendor/bundle/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/kei/work/sandbox/rails/mitakalab-twitter/vendor/bundle/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR="
+compiling value.cc
+compiling array.cc
+compiling date.cc
+compiling constants.cc
+compiling init.cc
+compiling rr.cc
+compiling gc.cc
+compiling trycatch.cc
+compiling external.cc
+compiling primitive.cc
+compiling message.cc
+compiling locker.cc
+compiling signature.cc
+compiling context.cc
+compiling heap.cc
+compiling exception.cc
+compiling accessor.cc
+compiling function.cc
+compiling script.cc
+compiling backref.cc
+compiling template.cc
+compiling constraints.cc
+compiling v8.cc
+compiling object.cc
+compiling stack.cc
+compiling string.cc
+compiling handles.cc
+compiling invocation.cc
+linking shared-object v8/init.so
+
+current directory: /home/kei/work/sandbox/rails/mitakalab-twitter/vendor/bundle/gems/therubyracer-0.12.2/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20160428-22899-1nr76i6/v8
